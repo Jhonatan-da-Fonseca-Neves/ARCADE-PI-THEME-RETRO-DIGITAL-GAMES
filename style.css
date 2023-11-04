@@ -1,0 +1,60 @@
+
+*{
+    margin: 10;
+    padding: 10;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: gray;
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.titulo-destaque{
+    color: #22d4fd;
+}
+a{
+    font-weight:bold lawngreen;
+    font-size: 20px;
+}
+span{
+    color: black;
+    border: 5px solid #22d4fd;
+    border-radius: 16px;
+    padding: 1px;
+}
+.apresentacao{
+    margin: 2%;
+    justify-content: space-between;
+}
+img{
+    margin: 2%;
+    box-shadow: 15px 15px black;
+    
+}
+.apresentacao__conteudo{
+    width: 615px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+}
+.apresentacao__conteudo__text{
+    font-size: 24px;
+
+}
+.apresentacao_link{
+    display: flex;
+    justify-content: space-between;
+}
+.botao{
+    background-color: #22d4fd;
+    width: 499px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 16px 5 ;
+    text-decoration: none;
+    box-shadow: 10px 15px black;   
+}
